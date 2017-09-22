@@ -3,7 +3,7 @@ Shopify W18 Backend Challenge
 Here is my solution for the Shopify W18 Challenge. 
 
 
-###Instructions
+## Instructions
 
 
 Run 	``` bundle install ```
