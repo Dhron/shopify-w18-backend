@@ -68,10 +68,8 @@ class Validator
 	end
 end
 
-
-machine = Validator.new()
-
 get '/' do
+    machine = Validator.new()
 	(1..5).each do | page |
 	machine.read('https://backend-challenge-winter-2017.herokuapp.com/customers.json', page)
 	machine.validate()
@@ -79,4 +77,3 @@ get '/' do
 	machine.returnInvalid()
 end
 
-#machine.returnInvalid()
