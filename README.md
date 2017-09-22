@@ -1,8 +1,12 @@
 Shopify W18 Backend Challenge
 ===================
 Here is my solution for the Shopify W18 Challenge. 
+
+
 #Instructions
 Run 	``` bundle install ```
+
+
 Then ``` ruby index.rb ```
 
 Heroku deployment of API can be found here: https://warm-badlands-73734.herokuapp.com/
